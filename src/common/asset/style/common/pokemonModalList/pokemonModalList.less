@@ -1,0 +1,54 @@
+.ant-modal-content {
+  border-radius: 20px !important;
+  box-shadow: @pokemon-list-box-shadow !important;
+  background-color: @pokemon-color-3 !important;
+
+  svg {
+    color: @pokemon-color-4 !important;
+  }
+
+  .ant-modal-header {
+    background-color: @pokemon-color-3;
+    border-radius: 10px;
+
+    .anticon {
+      color: @pokemon-color-4 !important;
+    }
+
+    .ant-modal-title {
+      color: @pokemon-color-4;
+    }
+  }
+
+  .ant-modal-body {
+    background-color: @pokemon-color-3;
+
+    .ant-table-wrapper {
+      margin-top: @pokemon-list-table-wrapper-margin-top;
+      width: 100%;
+
+      th {
+        color: @pokemon-color-4;
+        background-color: @pokemon-color-2;
+      }
+
+      tr:hover > td {
+        background-color: @pokemon-color-1 !important;
+      }
+
+      td {
+        color: @pokemon-color-4;
+        background-color: @pokemon-color-3;
+      }
+    }
+  }
+
+  .ant-modal-footer {
+    background-color: @pokemon-color-3;
+    border-radius: 10px;
+
+    button {
+      visibility: hidden;
+    }
+  }
+}
